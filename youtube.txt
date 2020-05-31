@@ -1,0 +1,23 @@
+(function(){
+var itr = 0;
+var interval = setInterval(function(){
+if(document.getElementsByClassName('ytp-ad-skip-button ytp-button'))}
+setTimeout(function(){
+document.getElementsByClassName('ytp-ad-skip-button ytp-button').click();
+clearInterval(interval);
+        }, 5000);
+    {
+    itr++;
+    return;  
+    },100);
+})();
+
+
+setInterval(() => {
+  let element = document.getElementsByClassName(
+    "ytp-ad-skip-button ytp-button"
+  );
+  if (element[0]) {
+    document.getElementsByClassName("ytp-ad-skip-button ytp-button")[0].click()
+  }
+}, 2000);
